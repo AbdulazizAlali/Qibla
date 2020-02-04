@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/widget30"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#e5d7c3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="281dp"
+        android:layout_marginBottom="16dp"
+        android:text="الدقة"
+        android:textColor="#777"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="162dp"
+        android:src="@drawable/kaababigpng" />
+
+    <ImageView
+
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="151dp"
+        android:src="@drawable/baseline_navigation_24" />
+
+    <ImageView
+       android:layout_below="@id/textview1"
+        android:layout_marginTop="32dp"
+        android:id="@+id/widget37"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/compass" />
+
+    <ImageView
+        android:id="@+id/widget39"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="440dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baseline_navigation_24" />
+
+    <RelativeLayout
+        android:id="@+id/compass"
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+
+        android:layout_below="@+id/textview1"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:id="@+id/kaaba"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/kaabamono" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tibs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="@string/tibs"
+            android:textColor="#777"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/electronics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/tibs"
+            android:text="@string/electronics"
+            android:textColor="#777"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/calibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/electronics"
+            android:text="@string/calibrating"
+            android:textColor="#777"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/calibrate"
+            android:text="@string/flat"
+            android:textColor="#777"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/accuracy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/accuracy"
+
+        android:textAlignment="center"
+
+        android:textColor="#54300A"
+        android:textSize="18sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/no_gps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#e5d7c3"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/check_gps"
+
+            android:textColor="#54300A"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="230dp"
+            android:layout_marginBottom="89dp"
+            android:src="@drawable/baseline_gps_fixed_24" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

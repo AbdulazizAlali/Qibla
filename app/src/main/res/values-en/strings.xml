@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qibla+</string>
+    <string name="calibrating">- Calibrate the compass by rotating the device</string>
+    <string name="check_gps">"Make sure that GPS system is turned on then wait untill your lacation is specified"</string>
+    <string name="electronics">- Move away from electronic devices and metals</string>
+    <string name="flat">- Lay  your phone on flat place</string>
+    <string name="tibs">Tips for more accuracy :</string>
+    <string name="rotate">Rotate the device to calibrate the compass</string>
+    <string name="accuracy">Magnetic field:</string>
+    <string name="bad">Bad accuracy</string>
+    <string name="medium">Medium accuracy</string>
+    <string name="good">Accurate</string>
+</resources>

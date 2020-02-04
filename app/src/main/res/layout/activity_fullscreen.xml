@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5d7c3"
+    tools:context=".FullscreenActivity">
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widget39"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="38dp"
+
+        android:layout_marginEnd="16dp"
+        android:text="@string/rotate"
+        android:textColor="#54300A"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:layout_width="257dp"
+        android:layout_height="189dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="61dp"
+        android:src="@drawable/kaababigpng" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginBottom="89dp"
+
+        android:src="@drawable/screenshot241" />
+
+    <ImageView
+        android:id="@+id/widget39"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/baseline_navigation_24" />
+
+
+        />
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    </RelativeLayout>
+

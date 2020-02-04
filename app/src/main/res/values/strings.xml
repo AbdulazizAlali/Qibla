@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">+ قبلة</string>
+
+
+    <string name="electronics">- ابتعد عن الأجهزة الاكترونية والقطع المعدنية</string>
+    <string name="calibrating">- قم بمعايرة البوصلة بتدوير الجهاز</string>
+    <string name="flat">- ضع هاتفك على مكان مسطح</string>
+    <string name="check_gps">- تأكد من تشغيل نظام GPS \nثم انتظر حتى يتم تحديد موقعك</string>
+    <string name="tibs">نصائح لتحديد القبلة :</string>
+    <string name="rotate">قم بتدوير الجهاز لتتم معايرة البوصلة</string>
+    <string name="accuracy">المجال المغناطيسي</string>
+    <string name="bad">البوصلة غير دقيقة ابحث عن مكان بعيد عن المجال المغناطيسي لتحسين الدقة</string>
+    <string name="medium"> البوصلة متوسطة الدقة بسبب قربك من المجال المغناطيسي</string>
+    <string name="good">"البوصلة دقيقة"</string>
+</resources>
