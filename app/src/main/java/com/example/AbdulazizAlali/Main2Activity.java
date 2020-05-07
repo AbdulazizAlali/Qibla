@@ -120,15 +120,15 @@ public class Main2Activity extends Activity implements SensorEventListener, Loca
 
             if(magnetic_field_strength<30){
 
-                this.accuracy.setText(getString(R.string.accuracy )+(magnetic_field_strength/5)*5 + "μT\n"+getString(R.string.good));
-                this.accuracy.setTextColor(getColor(R.color.accurate));
+                this.accuracy.setText(getString(R.string.accuracy )+(magnetic_field_strength/2)*2 + "μT\n"+getString(R.string.bad ));
+                this.accuracy.setTextColor(getColor(R.color.nonaccurate));
             }
             else if(magnetic_field_strength<70){
-                this.accuracy.setText(getString(R.string.accuracy )+(magnetic_field_strength/5)*5 + "μT\n"+getString(R.string.medium));
+                this.accuracy.setText(getString(R.string.accuracy )+(magnetic_field_strength/2)*2 + "μT\n"+getString(R.string.good));
                 this.accuracy.setTextColor(getColor(R.color.colorPrimaryDark));
             }
             else{
-                this.accuracy.setText(getString(R.string.accuracy )+(magnetic_field_strength/5)*5 + "μT\n"+getString(R.string.bad ));
+                this.accuracy.setText(getString(R.string.accuracy )+(magnetic_field_strength/2)*2 + "μT\n"+getString(R.string.bad ));
                 this.accuracy.setTextColor(getColor(R.color.nonaccurate));
             }
 
